@@ -3,6 +3,7 @@
 <head>
     <title>Notes App</title>
 </head>
+
 <body>
     <h1>My Notes</h1>
     <a href="{{ url_for('add') }}">Add Note</a>
@@ -14,5 +15,6 @@
             </li>
         {% endfor %}
     </ul>
+    <script src="/static/api.js"></script>
 </body>
 </html>
