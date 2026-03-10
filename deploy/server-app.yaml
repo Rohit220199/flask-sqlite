@@ -16,4 +16,4 @@ spec:
       - name: server-app
         image: rohit220199/server-app:latest
         ports:
-        - containerPort: 80
+        - containerPort: 3000
